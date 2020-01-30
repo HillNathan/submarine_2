@@ -43,6 +43,21 @@ function SubForm(props) {
                 </select>
               </div>
             </div>
+            <div className="row">
+              <div className="col-sm ">
+                <label htmlFor="category">Category</label>
+                <select
+                  className="form-control form-control-lg"
+                  id="category-input"
+                >
+                  <option>Entertainment</option>
+                  <option>Food</option>
+                  <option>Health/Fitness</option>
+                  <option>Shopping</option>
+                </select>
+              </div>
+            </div>
+
           </div>
           <button
             onClick={event =>
