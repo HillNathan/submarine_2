@@ -2,7 +2,6 @@ import React from "react";
 import SubList from "../../components/SubList";
 import SubForm from "../../components/SubForm";
 import PageHeader from "../../components/PageHeader";
-import Logo from "../../components/Logo";
 
 import "./style.css";
 
@@ -10,7 +9,6 @@ function Main(props) {
   return (
     <div className="App">
       <div className="container ">
-        <Logo />
         <PageHeader headerText="Subscriptions" />
 
         <div className="row justify-content-center">

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Chart2 from "../../components/ActiveChart";
 import Chart1 from "../../components/GaugeChart";
 import PageHeader from "../../components/PageHeader";
-import Logo from "../../components/Logo";
 import "./style.css";
 
 function getMonthlyTotal(subArray) {
@@ -291,7 +290,6 @@ class Stats extends Component {
   render() {
     return (
       <div className="container justify-content-center">
-        <Logo />
         <PageHeader headerText="Statistics" />
         <div className="row mobile-margin">
           <div className="col-xl-3 col-lg-12 group">

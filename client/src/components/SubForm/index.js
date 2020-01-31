@@ -64,7 +64,8 @@ function SubForm(props) {
               props.addSub(event, cb, {
                 name: document.getElementById("name-input").value,
                 cost: document.getElementById("cost-input").value,
-                frequency: document.getElementById("frequency-input").value
+                frequency: document.getElementById("frequency-input").value,
+                category: document.getElementById("category-input").value
               })
             }
             className="subscription-page-button"
